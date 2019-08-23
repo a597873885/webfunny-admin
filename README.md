@@ -2,7 +2,7 @@
 
 1. 克隆或者下载代码
 
-2. 进入 webfunny-admin 目录，执行命令 $: node config.js
+2. 进入 webfunny-admin 目录，执行命令 $: node config.js  等待编译完成
 
 3. 安装ngnix, 进入nginx的根目录，在配置文件nginx.conf中 http节点下，增加一段配置
 
