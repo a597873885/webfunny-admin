@@ -2,7 +2,18 @@
 
 1. 克隆或者下载代码
 
-2. 进入 webfunny-admin 目录，执行命令 $: node config.js  等待编译完成
+2. 进入 webfunny-admin 目录，执行命令 $: node config.js  等待编译完成 config的配置如下：
+         /**
+          * 请求接口域名 webfunny-servers 的服务的部署域名
+          * 本地请使用 "//localhost:8011"
+          */
+        const default_api_server_url = "//localhost:8011"
+
+        /**
+         * 静态资源域名 webfunny-admin 的部署域名
+         * 本地请使用 "//localhost:8010"
+         */
+        const default_assets_url = "//localhost:8010"
 
 3. 安装ngnix, 进入nginx的根目录，在配置文件nginx.conf中 http节点下，增加一段配置
 
