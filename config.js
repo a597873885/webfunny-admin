@@ -73,6 +73,13 @@ const customerConfig = {
 
 var fs = require('fs');
 stat = fs.stat;
+fs.mkdir( "./webfunny", function(err){
+  if ( err ) { 
+    console.log("文件夹 webfunny 已经存在")
+  } else {
+    console.log("创建文件夹 webfunny")
+  }
+});
 copy("./resource/", "./webfunny")
 console.log("===========================")
 console.log("= 正在执行编译，请等待... =")
