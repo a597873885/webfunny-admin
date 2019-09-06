@@ -20,7 +20,7 @@
 
         server {
           listen       8010;
-          server_name  local.webfunny.cn;
+          server_name  localhost;
           root /Users/jeffery/MonitorProjects/webfunny-admin; # 这是项目的绝对路径
           try_files $uri /webfunny/index.html;
         }
