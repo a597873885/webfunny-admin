@@ -16,7 +16,7 @@
          */
         const default_assets_url = "//localhost:8010"
 
-3. 安装ngnix, 进入nginx的根目录，在配置文件nginx.conf中 http { ... } 节点下，增加一段配置
+3. 安装ngnix, 进入nginx的根目录，在配置文件nginx.conf中 http { ... } 节点下，增加一段配置 （这段配置代码是必须的）
 
         server {
           listen       8010;
